@@ -1,5 +1,11 @@
 # HC
 huffman code program w/GUI
+
+README:
+
+executable: displaysimpletree.java
+basically does what the specifications are below:
+-------------------------
 Write a program
 to create a Human code for a message. Input to the program should be a text message to be encoded.
 Your program should do the following:
