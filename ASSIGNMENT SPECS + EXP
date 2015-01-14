@@ -1,0 +1,28 @@
+# HC
+huffman code program w/GUI
+Write a program
+to create a Human code for a message. Input to the program should be a text message to be encoded.
+Your program should do the following:
+(a) (8 points) In a GUI window (see gure 1), input a message to be encoded and compute character
+frequencies for each character in the message. Store these frequencies in an array indexed by each
+character's code, and print out each character code with its frequency. You can print the frequencies
+out in a GUI window or on the terminal.
+Message: abaccda
+CHAR ASCII FREQ
+a 97 3
+b 98 1
+c 99 2
+d 100 1
+
+(b) (25 pts) Create a priority queue (heap) prioritized by the smallest frequency for the characters in
+the message. Using the priority queue, create a Human tree for the message Your program should
+display the tree in the GUI window (see gure 1). Each node of the tree should display the character
+and its frequency if a leaf node, and if an interior node it should print the combined frequencies of its
+two children. You may use the heap code in the Weiss text to implement the Priority Queue but you
+may not use any Java Collections API PriorityQueue class or methods.
+
+(c) (5 points) Display the Human code word below each leaf node of the tree. Use a binary 1 for a left
+child and a binary 0 for a right child (see Figure 1).
+
+Extra Credit: (3 points) In the GUI, display the binary digits of the encoded message using the Human
+code you created.
